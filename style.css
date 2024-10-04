@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    position: relative;
+    position: center;
 }
 
 .background-image {
@@ -12,39 +12,49 @@ body {
     height: auto;
 }
 
-.icon1, .icon2, .icon3,.icon4, .icon5, .icon6  {
+.icon1, .icon2, .icon3,.icon4, .icon5, .icon6,.icon7,.icon8 {
     position: absolute;
     display:block;
-    width: 50px; /* Ajustez la taille de l'icône */
-    height: 50px; /* Ajustez la taille de l'icône */
-    z-index: 1;
-    font-size: 25px;
+    
+ 
 }
-
+.icon7 {
+    top: 11%; /* Ajustez la position verticale */
+    left: 40%; /* Ajustez la position horizontale */
+   
+  
+}
 .icon1 {
-    top: 37%; /* Ajustez la position verticale */
-    left: 47%; /* Ajustez la position horizontale */
-    color:red;
+    top: 36%; /* Ajustez la position verticale */
+    left: 40%; /* Ajustez la position horizontale */
+   
+  
 }
 
 .icon2 {
-    top: 43%;
-    left: 37%;
+    top: 44%;
+    left: 40%;
 }
 
 .icon3 {
-    top: 51%;
-    left: 47%;
+    top: 50%;
+    left: 40%;
 }
 .icon4 {
-    top: 58%;
-    left: 47%;
+    top: 57%;
+    left: 40%;
 }
 .icon5 {
-    top: 66%;
-    left: 47%;
+    top: 64%;
+    left: 40%;
 }
 .icon6 {
-    top: 73%;
-    left: 47%;
+    top: 71%;
+    left: 40%;
+}
+.icon8 {
+    top: 78%; /* Ajustez la position verticale */
+    left: 40%; /* Ajustez la position horizontale */
+   
+  
 }
